@@ -25,7 +25,7 @@ Para economizar e utilizar modelos sem custo alto de API, é possível rodar o s
 
 ### Como configurar:
 
-1. Acesse o repositório do projeto: https://github.com/freellmapi
+1. Acesse o repositório do projeto: https://github.com/tashfeenahmed/freellmapi
 2. No Termux, instale as dependências e rode o serviço do freellmapi.
 3. O serviço disponibiliza um endpoint local (ex: `http://127.0.0.1:8080/v1` ou porta configurada).
 4. No Zafiro:
