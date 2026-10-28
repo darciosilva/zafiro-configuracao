@@ -1261,6 +1261,27 @@ Observações:
 
 ------------------------------------------------------------------------
 
+
+## 📦 Pacote de Skill (.skill)
+
+Este repositório também inclui o pacote de skill **zafiro-python-meta-tools**, 
+projetado para agentes que precisam de orientação estruturada para criar, 
+revisar e documentar Python Meta Tools no Zafiro.
+
+### Arquivos incluídos
+
+- `zafiro-python-meta-tools.skill` — pacote ZIP contendo:
+  - `SKILL.md` — skill completa em Markdown (ver em `skills/zafiro-python-meta-tools/SKILL.md`)
+  - `README.md` — descrição breve em português (ver em `skills/zafiro-python-meta-tools/README.md`)
+
+### Como usar
+
+1. Baixe o arquivo `.skill` para o seu agente.
+2. Coloque-o no gerenciador de skills conforme a documentação do seu agente.
+3. Se preferir usar os arquivos markdown diretamente, acesse os caminhos indicados.
+
+---
+
 ## 📌 Referências
 
 -   [Repositório oficial do Zafiro](https://github.com/niki914/zafiro)
