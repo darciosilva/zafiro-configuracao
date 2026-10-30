@@ -1,23 +1,21 @@
-# Otimização de Tokens
+# Otimização de tokens
 
-Como reduzir o consumo desnecessário de tokens nas requisições.
+Como reduzir o consumo de tokens.
 
 ---
 
-## Práticas de economia
+## Práticas
 
-### 1. Seleção do modelo
-Use modelos leves para tarefas corriqueiras (como `gpt-4o-mini` ou modelos menores via `freellmapi`) e reserve modelos avançados para análises complexas.
+### 1. Escolha o modelo certo
+Use modelos leves para tarefas simples. Reserve modelos maiores para questões complexas.
 
 ### 2. System prompt direto
-Evite textos longos ou redundantes no prompt do sistema.
-- **Evite:** Instruções prolixas repetindo que o agente deve ser educado e amigável.
-- **Prefira:** Regras diretas com o papel, restrições e idioma.
+Evite textos longos no prompt. Seja objetivo.
 
 ### 3. Limpeza de contexto
 - Mantenha na memória apenas fatos estáveis.
-- Inicie uma nova conversa quando mudar totalmente de assunto.
-- Defina limites razoáveis (`max_results`) ao utilizar ferramentas de busca na web.
+- Inicie nova conversa quando mudar de tema.
+- Defina limites razoáveis nas buscas.
 
 ---
 
