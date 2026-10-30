@@ -1,10 +1,10 @@
-# Modelo LLM
+# 🤖 Modelo LLM
 
-Como configurar os modelos de linguagem no Zafiro.
+Como configurar os provedores de linguagem.
 
 ---
 
-## Provedores
+## 🔑 Provedores
 
 | Provedor | Modelos | URL |
 |----------|---------|-----|
@@ -15,17 +15,16 @@ Como configurar os modelos de linguagem no Zafiro.
 
 ---
 
-## Configuração
+## ⚙️ Configuração
 
-1. Abra **Configurações → LLM**.
-2. Escolha o provedor.
-3. Cole a API key.
-4. Altere a **Base URL** se necessário.
-5. Salve.
+1. Acesse **Configurações → LLM**.
+2. Selecione o provedor e insira a API key.
+3. Altere a **Base URL** (se aplicável).
+4. Salve.
 
 ---
 
-## Parâmetros
+## 🎛️ Parâmetros
 
 - **Temperature:** `0.7`
 - **Max tokens:** `4096`
@@ -33,6 +32,4 @@ Como configurar os modelos de linguagem no Zafiro.
 
 ---
 
-## Próximo passo
-
-→ [Otimização de tokens](../otimizacao-tokens/README.md)
+→ 💰 [Otimização de tokens](../otimizacao-tokens/README.md)
