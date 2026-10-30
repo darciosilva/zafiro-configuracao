@@ -1,39 +1,26 @@
-# Integração de APIs
+# 🔌 Integração de APIs
 
-Como estender o Zafiro criando ferramentas Python personalizadas.
+Como criar ferramentas Python no Zafiro.
 
 ---
 
-## Estrutura de uma ferramenta Python
-
-Toda ferramenta registrada no Zafiro deve conter a função `main`:
+## 🐍 Estrutura do código
 
 ```python
 def main(parametro: str) -> str:
-    """Descrição simples da função."""
+    """Descrição da ferramenta."""
     import requests
-    response = requests.get("https://api.exemplo.com/dados", params={"q": parametro}, timeout=15)
-    return response.text
+    r = requests.get("https://api.exemplo.com", params={"q": parametro}, timeout=15)
+    return r.text
 ```
 
 ---
 
-## Como cadastrar
+## 📝 Cadastro
 
-1. Abra **Configurações → Ferramentas Python**.
-2. Clique em **Adicionar**.
-3. Preencha nome, descrição e cole o código Python.
-4. Salve.
+1. Acesse **Configurações → Ferramentas Python**.
+2. Adicione nome, descrição e o código.
 
 ---
 
-## Recomendações de segurança
-
-- Defina `timeout` em todas as requisições HTTP.
-- Leia chaves de API a partir de arquivos locais em vez de inseri-las direto no código.
-
----
-
-## Próximo passo
-
-→ [System Prompt](../system-prompt/README.md)
+→ 📝 [System prompt](../system-prompt/README.md)
