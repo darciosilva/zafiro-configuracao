@@ -1,35 +1,21 @@
-# Configuração do System Prompt
+# 📝 System Prompt
 
-Como ajustar o comportamento padrão do agente Zafiro.
+Como personalizar as instruções do agente.
 
 ---
 
-## Estrutura recomendada
-
-Organize o prompt em blocos objetivos:
+## 📋 Estrutura recomendada
 
 ```markdown
 # PAPEL
-Você é um assistente de automação no Android.
+Assistente de automação Android.
 
 # REGRAS DE EXECUÇÃO
-- Execute ações reais em vez de apenas descrevê-las.
-- Valide o resultado dos comandos antes de confirmar a conclusão.
+- Execute ações reais.
+- Valide resultados antes de confirmar.
 - Responda em Português do Brasil.
-
-# RESTRIÇÕES
-- Não exponha credenciais ou tokens em logs.
 ```
 
 ---
 
-## Local dos arquivos
-
-Os perfis ficam armazenados em:
-`/data/user/0/com.niki914.zafiro/files/settings/agent_profiles.json`
-
----
-
-## Próximo passo
-
-→ [Skills](../skills/README.md)
+→ ⚙️ [Skills](../skills/README.md)
